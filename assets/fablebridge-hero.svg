@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="700" viewBox="0 0 1400 700" role="img" aria-labelledby="title desc">
+  <title id="title">FableBridge — portable Fable 5.1-inspired agentic discipline</title>
+  <desc id="desc">A light, minimal diagram showing multiple coding agents connected through a Fable 5.1-inspired behavior layer into a disciplined workflow.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.58" stop-color="#fbfcff"/>
+      <stop offset="1" stop-color="#fff7f0"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#172033"/>
+      <stop offset="0.46" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#4f8df7"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4f8df7"/>
+      <stop offset="0.52" stop-color="#7c83f6"/>
+      <stop offset="1" stop-color="#e97835"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#172033" flood-opacity="0.08"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="32"/>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="700" rx="32" fill="url(#bg)"/>
+  <circle cx="1210" cy="120" r="150" fill="#ffe8d7" opacity="0.42" filter="url(#soft)"/>
+  <circle cx="210" cy="640" r="180" fill="#e8f1ff" opacity="0.55" filter="url(#soft)"/>
+
+  <!-- Brand -->
+  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <path d="M58 108 C110 56 162 56 214 108" fill="none" stroke="#3b82f6" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="58" cy="108" r="6" fill="#3b82f6"/>
+    <circle cx="214" cy="108" r="6" fill="#3b82f6"/>
+    <path d="M143 55 l4 11 11 4-11 4-4 11-4-11-11-4 11-4z" fill="#ef8a4c"/>
+
+    <text x="58" y="196" font-size="74" font-weight="750" fill="url(#brand)">FableBridge</text>
+    <rect x="58" y="218" width="268" height="4" rx="2" fill="url(#flow)"/>
+
+    <text x="58" y="286" font-size="34" font-weight="650" fill="#172033">Make your coding agents</text>
+    <text x="58" y="332" font-size="34" font-weight="650" fill="#172033">work more like <tspan fill="#3478ea">Fable 5.1</tspan></text>
+
+    <text x="58" y="382" font-size="20" fill="#55627a">Portable Fable 5.1-inspired agentic discipline for</text>
+    <text x="58" y="412" font-size="20" fill="#55627a">Codex, Claude Code, OpenCode, Cursor, and Copilot.</text>
+
+    <g transform="translate(58 454)">
+      <circle cx="18" cy="18" r="18" fill="#eef5ff" stroke="#d9e8ff"/>
+      <path d="M11 19c0-4 3-7 7-7h5m2 5c0 4-3 7-7 7h-5" fill="none" stroke="#3478ea" stroke-width="2.3" stroke-linecap="round"/>
+      <text x="50" y="24" font-size="18" fill="#3478ea">Behavior portability</text>
+      <text x="214" y="24" font-size="18" fill="#172033">—</text>
+      <text x="236" y="24" font-size="18" fill="#e97835">not model replacement</text>
+    </g>
+
+    <!-- Agent cards -->
+    <g filter="url(#shadow)">
+      <rect x="505" y="112" width="176" height="66" rx="16" fill="#fff" stroke="#e8edf5"/>
+      <rect x="505" y="194" width="176" height="66" rx="16" fill="#fff" stroke="#e8edf5"/>
+      <rect x="505" y="276" width="176" height="66" rx="16" fill="#fff" stroke="#e8edf5"/>
+      <rect x="505" y="358" width="176" height="66" rx="16" fill="#fff" stroke="#e8edf5"/>
+      <rect x="505" y="440" width="176" height="66" rx="16" fill="#fff" stroke="#e8edf5"/>
+    </g>
+
+    <g font-size="18" font-weight="600" fill="#253047">
+      <text x="551" y="153">Codex</text>
+      <text x="551" y="235">Claude Code</text>
+      <text x="551" y="317">OpenCode</text>
+      <text x="551" y="399">Cursor</text>
+      <text x="551" y="481">Copilot</text>
+    </g>
+    <g font-size="22" font-weight="700" text-anchor="middle">
+      <text x="529" y="153" fill="#3478ea">›_</text>
+      <text x="529" y="235" fill="#e97835">✦</text>
+      <text x="529" y="317" fill="#7c5cf6">◎</text>
+      <text x="529" y="399" fill="#5e7af5">↗</text>
+      <text x="529" y="481" fill="#3478ea">◇</text>
+    </g>
+
+    <!-- Flow lines -->
+    <g fill="none" stroke-linecap="round" stroke-width="2.2" opacity="0.88">
+      <path d="M681 145 C742 145 742 218 812 260" stroke="#62a0f7"/>
+      <path d="M681 227 C748 227 755 252 812 276" stroke="#e97835"/>
+      <path d="M681 309 C748 309 758 300 812 294" stroke="#8870f5"/>
+      <path d="M681 391 C748 391 755 340 812 312" stroke="#4f8df7"/>
+      <path d="M681 473 C746 473 747 380 812 330" stroke="#5f91f4"/>
+    </g>
+    <g fill="#fff" stroke-width="2">
+      <circle cx="681" cy="145" r="5" stroke="#62a0f7"/>
+      <circle cx="681" cy="227" r="5" stroke="#e97835"/>
+      <circle cx="681" cy="309" r="5" stroke="#8870f5"/>
+      <circle cx="681" cy="391" r="5" stroke="#4f8df7"/>
+      <circle cx="681" cy="473" r="5" stroke="#5f91f4"/>
+    </g>
+
+    <!-- Minimal bridge -->
+    <g opacity="0.78">
+      <path d="M760 286 C830 216 912 216 985 286" fill="none" stroke="url(#flow)" stroke-width="4"/>
+      <path d="M775 299 C842 270 904 270 970 299" fill="none" stroke="#bacdf0" stroke-width="2"/>
+      <path d="M872 202 V324" stroke="#76a7f2" stroke-width="3"/>
+      <path d="M825 245 L872 202 L920 245" fill="none" stroke="#9bbcf0" stroke-width="1.6"/>
+    </g>
+
+    <!-- Behavior layer -->
+    <g filter="url(#shadow)">
+      <rect x="802" y="320" width="202" height="164" rx="24" fill="#fff" stroke="#e9edf5"/>
+    </g>
+    <path d="M851 377 C872 354 893 354 914 377" fill="none" stroke="#3478ea" stroke-width="2.5"/>
+    <line x1="882" y1="350" x2="882" y2="397" stroke="#3478ea" stroke-width="2.5"/>
+    <text x="903" y="425" text-anchor="middle" font-size="20" font-weight="650" fill="#172033">Fable 5.1-inspired</text>
+    <text x="903" y="452" text-anchor="middle" font-size="20" font-weight="650" fill="#172033">behavior layer</text>
+    <text x="903" y="477" text-anchor="middle" font-size="22" fill="#e97835">✦</text>
+
+    <!-- Output flow -->
+    <g fill="none" stroke="#e97835" stroke-linecap="round" stroke-width="2" opacity="0.78">
+      <path d="M984 270 C1040 270 1043 210 1092 210"/>
+      <path d="M994 295 C1048 295 1048 304 1092 304"/>
+      <path d="M996 321 C1048 321 1048 398 1092 398"/>
+      <path d="M980 346 C1037 346 1045 492 1092 492"/>
+    </g>
+
+    <!-- Workflow -->
+    <g filter="url(#shadow)">
+      <rect x="1092" y="92" width="250" height="466" rx="26" fill="#fff" stroke="#ece7e2"/>
+    </g>
+    <text x="1217" y="137" text-anchor="middle" font-size="18" font-weight="750" fill="#172033">UNIFIED DISCIPLINED</text>
+    <text x="1217" y="161" text-anchor="middle" font-size="18" font-weight="750" fill="#172033">WORKFLOW</text>
+    <rect x="1192" y="178" width="50" height="3" rx="2" fill="#e97835"/>
+
+    <g>
+      <rect x="1114" y="205" width="54" height="54" rx="14" fill="#f5f8ff" stroke="#e3ebfa"/>
+      <rect x="1114" y="299" width="54" height="54" rx="14" fill="#fff7f1" stroke="#f9e3d4"/>
+      <rect x="1114" y="393" width="54" height="54" rx="14" fill="#f7f4ff" stroke="#e9e1ff"/>
+      <rect x="1114" y="487" width="54" height="54" rx="14" fill="#f5f8ff" stroke="#e3ebfa"/>
+      <text x="1141" y="240" text-anchor="middle" font-size="24" fill="#3478ea">☷</text>
+      <text x="1141" y="334" text-anchor="middle" font-size="24" fill="#e97835">‹/›</text>
+      <text x="1141" y="428" text-anchor="middle" font-size="24" fill="#7c5cf6">✓</text>
+      <text x="1141" y="522" text-anchor="middle" font-size="24" fill="#3478ea">□</text>
+    </g>
+    <g fill="#172033" font-size="19" font-weight="650">
+      <text x="1190" y="227">Plan</text>
+      <text x="1190" y="321">Act</text>
+      <text x="1190" y="415">Verify</text>
+      <text x="1190" y="509">Learn</text>
+    </g>
+    <g fill="#667085" font-size="14">
+      <text x="1190" y="249">break down &amp; align</text>
+      <text x="1190" y="343">edit &amp; execute</text>
+      <text x="1190" y="437">test &amp; review</text>
+      <text x="1190" y="531">capture outcomes</text>
+    </g>
+    <g fill="#b7c1d1" font-size="17" text-anchor="middle">
+      <text x="1141" y="285">↓</text>
+      <text x="1141" y="379">↓</text>
+      <text x="1141" y="473">↓</text>
+    </g>
+
+    <!-- Bottom explainer -->
+    <rect x="505" y="572" width="837" height="68" rx="20" fill="#ffffff" stroke="#e9edf5"/>
+    <text x="535" y="600" font-size="16" font-weight="650" fill="#172033">MODEL</text>
+    <text x="594" y="600" font-size="16" fill="#98a2b3">→</text>
+    <text x="620" y="600" font-size="16" font-weight="650" fill="#172033">CODING AGENT</text>
+    <text x="744" y="600" font-size="16" fill="#98a2b3">→</text>
+    <text x="770" y="600" font-size="16" font-weight="650" fill="#3478ea">FABLEBRIDGE</text>
+    <text x="885" y="600" font-size="16" fill="#98a2b3">→</text>
+    <text x="911" y="600" font-size="16" font-weight="650" fill="#172033">YOUR REPOSITORY</text>
+    <text x="535" y="624" font-size="13" fill="#7b8799">MiniMax M3, GLM, Qwen, DeepSeek, Claude, GPT and others — wherever your coding agent supports project instructions.</text>
+  </g>
+</svg>
