@@ -57,29 +57,20 @@ That means the underlying model can change while the working discipline stays co
 
 ## Can I use Kimi, GLM, Qwen, DeepSeek, or another model?
 
-**Yes — when your coding agent can run that model.**
+**Yes — if your coding agent supports that model.** FableBridge is model-agnostic at the instruction layer.
 
-For example, if you use OpenCode:
+For example, with OpenCode:
 
-```text
-Kimi        ─┐
-GLM         ├──> OpenCode ──> AGENTS.md ──> Your repo
-Qwen        ┤
-DeepSeek    ┘
-```
+`Kimi / GLM / Qwen / DeepSeek → OpenCode → FableBridge AGENTS.md → your repo`
 
-FableBridge sits at the **agent instruction layer**, not inside the model.
+Common combinations:
 
-So a useful setup can be:
+- Kimi + OpenCode + FableBridge
+- GLM + OpenCode + FableBridge
+- Qwen + OpenCode + FableBridge
+- DeepSeek + OpenCode + FableBridge
 
-```text
-Kimi      + OpenCode + FableBridge
-GLM       + OpenCode + FableBridge
-Qwen      + OpenCode + FableBridge
-DeepSeek  + OpenCode + FableBridge
-```
-
-You can later swap the model without rewriting the FableBridge behavior profile.
+These are examples, not a compatibility whitelist. You can swap the underlying model without rewriting the FableBridge behavior profile.
 
 > FableBridge can improve workflow discipline only to the extent that the underlying model and coding agent can follow the instructions and use the required tools.
 
