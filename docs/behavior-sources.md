@@ -1,20 +1,20 @@
 # Behavior Sources
 
-FableBridge distinguishes between behaviors supported by **public Claude Fable 5.1 material** and additional **FableBridge engineering discipline**. This prevents accidental model-equivalence or proprietary-system claims.
+FableBridge distinguishes between behaviors supported by **public Claude Fable 5.1 guidance** and additional **FableBridge engineering discipline**. This prevents accidental model-equivalence, proprietary-system, or unsupported attribution claims.
 
-## Primary public sources
+## Primary behavioral sources
 
-1. **Anthropic — Prompting Claude Fable 5.1**  
-   https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-1
+These are the sources used to ground FableBridge's Fable 5.1-specific workflow claims.
 
-2. **Anthropic — Claude Fable 5.1 model overview**  
-   https://platform.claude.com/docs/en/models/fable-5-1/overview
+1. **Anthropic — [Prompting Claude Fable 5.1](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-1)**
+2. **Anthropic — [Claude Fable 5.1 model overview](https://platform.claude.com/docs/en/models/fable-5-1/overview)**
 
-3. **Anthropic — Claude Fable product page / Fable 5.1 announcement**  
-   https://www.anthropic.com/claude/fable
+## Supplementary release and product context
 
-4. **GitHub — Claude Fable 5.1 in GitHub Copilot**  
-   https://github.blog/changelog/2026-09-01-claude-fable-5-1-generally-available-in-github-copilot/
+These sources provide product or availability context. FableBridge does **not** use them as evidence for behavior claims unless the cited page explicitly supports that behavior.
+
+3. **Anthropic — [Claude Fable product page](https://www.anthropic.com/claude/fable)** — general Fable product context; not treated here as a Fable 5.1-specific behavioral source.
+4. **GitHub — [Claude Fable 5.1 generally available in GitHub Copilot](https://github.blog/changelog/2026-09-01-claude-fable-5-1-generally-available-in-github-copilot/)** — availability context for GitHub Copilot.
 
 Sources were checked for V0.1 on **2026-09-03**.
 
