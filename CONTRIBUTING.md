@@ -13,7 +13,7 @@ Contributions should preserve four properties:
 
 ## Development
 
-Requires Python 3.9+ and no third-party packages.
+Development requires Python 3.9+ and no third-party packages.
 
 ```bash
 python scripts/render.py --check
