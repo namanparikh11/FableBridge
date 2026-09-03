@@ -4,7 +4,7 @@ Keep the repository private until every item in the checklist is intentionally a
 
 ## One-line hook
 
-**Fable 5.1 just launched. I extracted the parts of its agentic workflow that can actually be transferred and made them portable across Codex, Claude Code, OpenCode, Cursor, and Copilot.**
+**Fable 5.1 just launched. I distilled the transferable parts of its public agentic workflow guidance and made them portable across Codex, Claude Code, OpenCode, Cursor, and Copilot.**
 
 ## Short launch post
 
