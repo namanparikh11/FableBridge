@@ -55,14 +55,14 @@ YOUR REPOSITORY
 
 That means the underlying model can change while the working discipline stays consistent.
 
-## Can I use MiniMax M3, GLM, Qwen, DeepSeek, or another model?
+## Can I use Kimi, GLM, Qwen, DeepSeek, or another model?
 
 **Yes — when your coding agent can run that model.**
 
 For example, if you use OpenCode:
 
 ```text
-MiniMax M3 ─┐
+Kimi        ─┐
 GLM         ├──> OpenCode ──> AGENTS.md ──> Your repo
 Qwen        ┤
 DeepSeek    ┘
@@ -73,9 +73,10 @@ FableBridge sits at the **agent instruction layer**, not inside the model.
 So a useful setup can be:
 
 ```text
-MiniMax M3 + OpenCode + FableBridge
-GLM        + OpenCode + FableBridge
-Qwen       + OpenCode + FableBridge
+Kimi      + OpenCode + FableBridge
+GLM       + OpenCode + FableBridge
+Qwen      + OpenCode + FableBridge
+DeepSeek  + OpenCode + FableBridge
 ```
 
 You can later swap the model without rewriting the FableBridge behavior profile.
